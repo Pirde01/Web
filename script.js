@@ -1,5 +1,9 @@
-// ตัวอย่าง JavaScript สำหรับการทำงานในอนาคต
-// เช่น การเพิ่มปุ่ม "สั่งซื้อ" หรือการโต้ตอบเมื่อคลิกที่เมนู
-// แต่ในตัวอย่างนี้จะไม่มีการทำงานพิเศษในตอนนี้
-console.log("เมนูร้านน้ำสดชื่นพร้อมแล้ว!");
+// เลือกปุ่ม menu-toggle และรายการ nav-list
+const menuToggle = document.getElementById('menu-toggle');
+const navList = document.getElementById('nav-list');
 
+// เพิ่ม event listener สำหรับคลิกปุ่ม menu-toggle
+menuToggle.addEventListener('click', () => {
+  // สลับคลาส active ใน nav-list
+  navList.classList.toggle('active');
+});
