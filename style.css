@@ -281,14 +281,14 @@ footer p {
 @media screen and (max-width: 768px) {
     .menu-item {
         width: 350px;
-        height: 350px;
+        height: 90%;
     }
 }
 
 @media screen and (max-width: 380px) {
     .menu-item {
         width: 80%;
-        height: 90%px;
+        height: 90%;
     }
 
     .menu-image {
