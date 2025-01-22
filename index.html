@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="th">
-<head>
+
+    <script src="script.js"></script>
+    
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coco Bubble Tea Menu</title>
@@ -8,23 +11,25 @@
 </head>
 <body>
     <header>
+       <div class="grid">
         <div class="header-container">
-          <div class="logo-container">
-            <img src="images/logo.png" alt="Brand Logo">
-          </div>
-    
-          <div class="menu-container">
-            <a href="index.html">
-              <h2>Menu</h2>
-            </a>
-            <a href="Store.html">
-              <h2>Store</h2>
-            </a>
-          </div>
-        </div>
-      </header>
+            <div class="logo-container">
+              <img src="images/logo.png" alt="Brand Logo">
+            </div>
 
-      <div style="text-align: center;">
+            <div class="menu-container">
+              <a href="index.html">
+                <h2>Menu</h2>
+              </a>
+              <a href="Store.html">
+                <h2>Store</h2>
+              </a>
+            </div>
+        </div>
+          </div>
+        </header>
+
+        <div style="text-align: center;">
       <div class="slider">
         <img src="images/1.png" class="active" alt="Slide 1">
         <img src="images/2.png" alt="Slide 2">
@@ -37,7 +42,7 @@
         </div>
         </div>  
         
-<div style="text-align: center;">
+    
     <div class="menu-item" style="cursor: pointer;" onclick="window.location.href='Recommend Menu.html'">
         <img src="images/brown sugar fresh milk with pearl.png" alt="Thai tea" class="menu-image">
         <h3>เมนูแนะนำ</h3>
@@ -79,7 +84,7 @@
             <h3>นม</h3>
             <p>MILK</p>
         </div>
-    </div>
+
     <footer>
         <p>&copy; 2024 CoCo Bubble Tea (Thailand) | Images are for reference only. visit store for the details</p>
     </footer>
@@ -108,9 +113,9 @@
 
         nextBtn.addEventListener('click', nextSlide);
         prevBtn.addEventListener('click', prevSlide);
+
     </script>
-
-
+    
 </body>
 </html>
 
